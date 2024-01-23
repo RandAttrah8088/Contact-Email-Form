@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contactcontainer">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="left-title">
+            <h2>Contact US</h2>
+            <hr>
+          </div> 
+          <input type="hidden" name="access_key" value="acf19ebb-f348-4517-827f-e68ca846defc">
+          <input type="text" name="name" placeholder="Enter Your Name" class="input" required>
+          <input type="email" name="email" placeholder="Enter Your Email" class="input" required>
+          <textarea name="message" placeholder="Type Your Message" class="input" required></textarea> 
+          <button type="submit">Submit <img src="./Assets/arrow.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="./Assets/email (2).png" alt="">
+        </div>
+    </div>
+</body>
+</html>
